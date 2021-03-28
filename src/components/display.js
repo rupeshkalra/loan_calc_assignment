@@ -8,7 +8,7 @@ function Display(props){
             <h4>
                 Loan amount: {props.userValues.amount} <br /> 
                 Interest:{props.userValues.interest} <br /> 
-                Years to repay: {props.userValues.months}
+                Time: {props.userValues.months}
             </h4>
             <div>
                 <label>Monthly Payment:</label>
